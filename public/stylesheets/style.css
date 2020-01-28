@@ -99,6 +99,11 @@ body {
 	color:#9ACD32;
 }
 
+@media (max-width:1250px){
+	.information2 {
+		display:none;
+	}
+}
 
 @media (max-width:950px){
 .information2 {
@@ -110,6 +115,11 @@ body {
 	top:30vh;
 	right:0;
 
+}
+
+.information{
+	font-size:20px;
+	padding:10px;
 }
 
 .main-header {

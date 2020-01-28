@@ -1,0 +1,69 @@
+body {
+	padding:0px;
+	margin:0px;
+}
+
+
+.jumbotron{
+  background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('rink2.jpg');
+  background-position:center;
+  background-size:cover;
+  width:100%;
+  height:100vh;
+  margin:0;
+  padding:0;
+}
+
+.big-image {
+	height:20vh;
+	position:absolute;
+	top:0;
+	right:0;
+}
+
+.main-container {
+	padding:0;
+	margin:0;
+}
+.slogan{
+  color:#fff;
+  text-align:center;
+  font-size:3rem;
+  width:50%;
+  height:65%;
+  z-index:1;
+  /*background-color:rgba(13, 0, 0, 0.7);*/
+  opacity:1;
+  /*float:right;*/
+  padding:20px;
+  animation: 2s ease-out 0s 1 slideinfromleft;
+}
+
+.slogan-colour {
+  color:#FFFF66;
+}
+.slogan-header {
+  letter-spacing:.1rem;
+  font-weight:900;
+  line-height:49px;
+  margin-bottom:10px;
+}
+
+.slogan-bottom {
+  padding-left:6rem;
+}
+
+.slogan-top {
+  padding-right:8rem;
+}
+
+.information {
+	color:#fff;
+	font-size: 1.5rem;
+	text-align:center;
+	width:50vh;
+}
+
+.bold {
+	font-weight:900;
+}

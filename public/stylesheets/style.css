@@ -15,10 +15,11 @@ body {
 }
 
 .big-image {
-	height:20vh;
+	height:50vh;
 	position:absolute;
-	top:0;
-	right:0;
+	top:20vh;
+	right:8vh;
+
 }
 
 .main-container {
@@ -36,7 +37,8 @@ body {
   opacity:1;
   /*float:right;*/
   padding:20px;
-  animation: 2s ease-out 0s 1 slideinfromleft;
+  animation: 2s ease-out 0s 1 slideinfromleft; 
+  margin: 0 auto;
 }
 
 .slogan-colour {
@@ -47,23 +49,86 @@ body {
   font-weight:900;
   line-height:49px;
   margin-bottom:10px;
+  padding-top:25px;
+  padding-right:150px;
 }
 
-.slogan-bottom {
-  padding-left:6rem;
-}
 
-.slogan-top {
-  padding-right:8rem;
-}
 
 .information {
 	color:#fff;
-	font-size: 1.5rem;
+	font-size: 1.75rem;
 	text-align:center;
-	width:50vh;
+	margin:0;
+	display: inline;
+	padding: 0px;
+	margin: 0;
+	float:left;
+	padding-left:25px;
+}
+
+.information2 {
+	color:#fff;
+	font-size: 1.75rem;
+	text-align:center;
+	margin:0;
+	display: inline;
+	padding: 0px;
+	margin: 0;
+	float:right;
+	padding-right:25px;
 }
 
 .bold {
 	font-weight:900;
+}
+
+.main-header {
+	color:#9ACD32;
+	font-size:1.5rem;
+	margin:0;
+	padding:25px;
+	text-transform: uppercase;
+}
+
+.email-link {
+	color:#9ACD32;
+}
+
+
+@media (max-width:950px){
+.big-image {
+	height: 25vh;
+	position: absolute;
+	top: 2.5rem;
+	right: 0;
+
+}
+.main-header {
+	font-size:1rem;
+}
+
+.slogan {
+	font-size:2rem;
+	height:25%;
+}
+.slogan-bottom {
+	padding-left:15px;
+}
+.information{
+	font-size:1.5rem;
+	text-align:left;
+	position: absolute;
+	bottom: 10%;
+}
+
+.information2{
+	/*font-size:1rem;
+	text-align:left;
+	padding-right:0px;
+	padding-left:25px;
+	float:left;*/
+	display:none;
+}
+
 }

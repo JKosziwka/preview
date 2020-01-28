@@ -48,6 +48,7 @@ body {
   margin-bottom:10px;
   padding-top:25px;
   padding-right:150px;
+  text-decoration:underline yellow;
 }
 
 
@@ -89,10 +90,19 @@ body {
 
 .main-header {
 	color:#9ACD32;
-	font-size:3rem;
+	font-size:3.75rem;
 	margin:0;
 	padding:25px;
+	padding-bottom:0;
 	text-transform: uppercase;
+}
+
+.second-header {
+	color:#9ACD32;
+	font-size:2.75rem;
+	margin:0;
+	padding:0;
+	text-transform:uppercase;
 }
 
 .email-link {
@@ -101,14 +111,31 @@ body {
 
 @media (max-width:1250px){
 	.information2 {
-		display:none;
+		position:absolute;
+		bottom:0vh;
+		font-size:20px;
+		left:0;
+		padding:20px;
+		text-align:left;
 	}
+	.information{
+	font-size:20px;
+	padding:20px;
+	position:absolute;
+	bottom:5vh;
+
+}
 }
 
 @media (max-width:950px){
 .information2 {
-	display:none;
-}
+		display:block;
+		position:absolute;
+		bottom:0vh;
+		font-size:20px;
+		left:0;
+		padding:20px;
+	}
 .big-image {
 	height:150px;
 	position:absolute;
@@ -119,13 +146,18 @@ body {
 
 .information{
 	font-size:20px;
-	padding:10px;
+	padding:20px;
+	position:absolute;
+	bottom:5vh;
+
 }
 
 .main-header {
-	font-size:24px;
+	font-size:28px;
 }
-
+.second-header{
+	font-size:20px;
+}
 .slogan{
   color:#fff;
   text-align:center;

@@ -131,7 +131,7 @@ body {
 .information2 {
 		display:block;
 		position:absolute;
-		bottom:0vh;
+		bottom:10vh;
 		font-size:20px;
 		left:0;
 		padding:20px;
@@ -148,15 +148,15 @@ body {
 	font-size:20px;
 	padding:20px;
 	position:absolute;
-	bottom:5vh;
+	bottom:15vh;
 
 }
 
 .main-header {
-	font-size:28px;
+	font-size:34px;
 }
 .second-header{
-	font-size:20px;
+	font-size:28px;
 }
 .slogan{
   color:#fff;

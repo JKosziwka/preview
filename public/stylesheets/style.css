@@ -111,6 +111,7 @@ body {
 .slogan {
 	font-size:2rem;
 	height:25%;
+	margin:0;
 }
 .slogan-bottom {
 	padding-left:15px;

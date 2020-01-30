@@ -154,7 +154,7 @@ body {
 
 .form-title {
 	text-transform:uppercase;
-	font-size:1rem;
+	font-size:1.5rem;
 	color:#9ACD32;
 }
 @media (max-width:1250px){
@@ -186,10 +186,16 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 }
+
+.form-title {
+	text-transform:uppercase;
+	font-size:20px;
+	color:#9ACD32;
+}
 .information2 {
 		display:block;
 		position:absolute;
-		bottom:10vh;
+		bottom:65px;
 		font-size:20px;
 		left:0;
 		padding:0;
@@ -207,7 +213,8 @@ body {
 	font-size:20px;
 	padding:20px;
 	position:absolute;
-	bottom:15vh;
+	bottom:85px;
+
 
 }
 

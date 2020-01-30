@@ -4,7 +4,7 @@ body {
 	width:100%;
 	height:100%;
 	overflow-x:hidden;
-	position:fixed;
+	position:relative
 }
 
 
@@ -146,7 +146,7 @@ body {
 
 }
 
-.email-box {
+#email-box {
 	min-height:30px;
 }
 
@@ -237,4 +237,16 @@ body {
   top:25vh;
   font-size:14px;
 }
+}
+
+@media (max-height:300px) {
+	.slogan{
+		display:none;
+	}
+	.information {
+		display:none;
+	}
+	.information2 {
+		display:none;
+	}
 }

@@ -113,6 +113,50 @@ body {
 	color:#9ACD32;
 }
 
+.sform {
+	margin-top:20px;
+	position:absolute;
+	bottom:15vh;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.form-button{
+  outline:0;
+  border:0;
+  padding:10px 25px;
+  min-width:130px;
+  background-color: inherit;
+  border:2px solid #9ACD32;
+  color:#fff;
+  /*border-radius: 10px;*/
+  text-transform:uppercase;
+  transition: 0.4s;
+  background-image: linear-gradient(45deg, #9ACD32 50%, transparent 50%);
+  background-position: 100% 0;
+  background-size: 300px;
+  font-weight:600;
+  font-size:0.75rem;
+  margin-bottom:10px;
+}
+.form-button:hover{
+  background-position: 0 100%;
+
+}
+
+.email-box {
+	min-height:30px;
+}
+
+
+
+.form-title {
+	text-transform:uppercase;
+	font-size:1rem;
+	color:#9ACD32;
+}
 @media (max-width:1250px){
 	.information2 {
 		position:absolute;
@@ -133,6 +177,15 @@ body {
 }
 
 @media (max-width:950px){
+.sform {
+	margin-top:20px;
+	position:absolute;
+	bottom:35vh;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+}
 .information2 {
 		display:block;
 		position:absolute;

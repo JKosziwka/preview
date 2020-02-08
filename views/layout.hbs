@@ -1,20 +1,98 @@
-<!DOCTYPE html>
-<html>
-
 <head>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="stylesheets/style.css">
   <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
-  <meta name="viewport" content="width=device-width user-scalable=false, initial-scale=1.0;">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
   <script src="https://kit.fontawesome.com/557e44bc05.js" crossorigin="anonymous"></script>
 </head>
+<header>
+  <nav class="navigation">
+    <img src="stylesheets/logo2.png" alt="logo2" class="logo2">
+    <img src="stylesheets/logo.png" alt="logo" class="logo">
+    <div class="dropdown-icon"><i class="fa fa-bars"></i></div>
+    <ul id="list" class="active">
+      <li><a href="/">home</a></li>
+      <li><a href="/about">about us</a></li>
+      <li><a href="/development">development</a></li>
+    <!--<div class="dropdown">
+    <button class="dropbtn">Teams
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+    </div>
+  </div>-->
+      <li><a href="/chip">chip's program</a></li>
+      <li><a href="/teams">teams</a></li>
+      <li><a href="/faq">FAQ</a></li>
+      <li><a href="/contact">contact</a></li>
+
+    </ul>
+  </nav>
+</header>
 
 <body>
-<div class="jumbotron">
+<section class="main-container">
   {{{ body }}}
-</div>
+</section>
 </body>
 
-</html>
+
+<section class="footer">
+  <div class="col-5" style="text-align:center;">
+    <h1>Stay Informed</h1>
+     <form
+  action="https://formspree.io/mjvwkwoy"
+  method="POST" class="sform">
+
+    <input type="text" name="_replyto" id="email-box" placeholder="Your Email">
+
+
+  <button type="submit" class="form-button">Subscribe</button>
+</form>
+  </div>
+  <div class="col-5" style="text-align:center;">
+    <h1>get in touch</h1>
+    <p><span>Email:</span><a href="mailto:shamrockserin@gmail.com" style="color:#fff;"> shamrockserin@gmail.com</a></p>
+  </div>
+  <div class="col-5" style="text-align:center;">
+    <h1 style="text-align:center;">social media</h1>
+    <p>Follow us on Social Media</p>
+    <div class='social-icons'>
+  <a href="#" style="text-decoration:none; color:inherit; font-size:inherit;"><i class="fab fa-facebook-square"></i></a>
+        <a href="https://twitter.com/erin_hockey" style="text-decoration:none; color:inherit;font-size:inherit;"><i class="fab fa-twitter-square"></i></a>
+        <a href="https://www.youtube.com/" style="text-decoration:none; color:inherit;font-size:inherit;"><i class="fab fa-youtube-square"></i></a>
+        <a href="https://www.instagram.com/mapleleafs/?hl=en" style="text-decoration:none; color:inherit;font-size:inherit;"><i class="fab fa-instagram"></i></a>
+    </div>  
+    <p>Website by <a href="mailto:jkosziwka@outlook.com" style="color:#fff;">JK Designs</a></p>                  
+  </div>
+</section>
+<!--<section class="footer2">
+  <h5>powered by JK Designs</h5>
+</section>-->
+
+
+
+<script
+        src="https://code.jquery.com/jquery-1.12.4.min.js"
+        integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+        crossorigin="anonymous"></script>
+
+<script>
+$(document).ready(function(){
+  $(".dropdown-icon").click(function(){
+    $("#list").toggleClass("active");
+  });
+});
+</script>
+<script>
+$('.dropdown-icon').click(function(){
+    $("dropdown-icon").toggleClass("rotated");
+});
+</script>
+
+
 
 
